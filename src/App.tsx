@@ -1,13 +1,11 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
+import { useEffect } from 'react';
 import './App.css';
+import Name from './components/Name';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div>
-      <h1 className="text-5xl">Hello</h1>
+    <div className="font-display flex h-screen text-white bg-gray-900">
+      <Name name={'Anirudh Bhardwaj'} />
     </div>
   );
 }
