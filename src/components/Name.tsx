@@ -42,7 +42,7 @@ const Name = ({ name: myName }: { name: string }) => {
 
           if (iterations >= 15) {
             clearInterval(interval);
-            setName('myName');
+            setName(myName);
           }
           iterations++;
         }, 50);
